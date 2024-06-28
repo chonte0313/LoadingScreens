@@ -12,14 +12,14 @@ import Combine
 struct RectangleLoading: View {
     
     // State variables to track the start and end points of the trim
-    @State private var startTrim: CGFloat = 0
-    @State private var endTrim: CGFloat = 0.1
+    @State var startTrim: CGFloat = 0
+    @State var endTrim: CGFloat = 0.1
     
     // The width of the rectangular stroke
     var lineWidth: CGFloat = 5
     
     // A state variable to track the rotation angle of the rectangle (unused in this implementation)
-    @State private var angle: Double = 0
+    @State var angle: Double = 0
     
     // A timer that triggers updates to the trim
     let timer: Publishers.Autoconnect<Timer.TimerPublisher>

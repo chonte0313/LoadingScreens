@@ -16,7 +16,7 @@ struct CircleLoading : View {
     var lineWidth : CGFloat = 5
     
     // A state variable to track the rotation angle of the circle
-    @State private var angle : Double = 0
+    @State var angle : Double = 0
     
     // A timer that triggers updates to the rotation angle
     let timer : Publishers.Autoconnect<Timer.TimerPublisher>

@@ -13,8 +13,8 @@ import Combine
 struct CircleTrimLoading : View {
     
     // State variables to track the start and end points of the trim
-    @State private var startTrim: CGFloat = 0
-    @State private var endTrim: CGFloat = 0.1
+    @State var startTrim: CGFloat = 0
+    @State var endTrim: CGFloat = 0.1
     
     // The width of the circular stroke
     var lineWidth : CGFloat = 5
