@@ -56,7 +56,7 @@
 <ol>
     <li>Open your project in Xcode.</li>
     <li>Navigate to <code>File</code> &gt; <code>Swift Packages</code> &gt; <code>Add Package Dependency...</code>.</li>
-    <li>Enter the repository URL: <code>https://github.com/yourusername/SwiftUILoadingViews.git</code>.</li>
+    <li>Enter the repository URL: <code>https://github.com/chonte0313/SwiftUILoadingViews.git</code>.</li>
     <li>Select the version you want to install.</li>
     <li>Add the package to your project.</li>
 </ol>
@@ -264,8 +264,8 @@ RectangleLoading(speed: .fast, lineWidth: 8, lineCap: .round)
 <hr>
 
 <p class="center">
-    <a href="https://github.com/yourusername/SwiftUILoadingViews/issues">Report Bug</a> ·
-    <a href="https://github.com/yourusername/SwiftUILoadingViews/issues">Request Feature</a>
+    <a href="https://github.com/chonte0313/SwiftUILoadingViews/issues">Report Bug</a> ·
+    <a href="https://github.com/chonte0313/SwiftUILoadingViews/issues">Request Feature</a>
 </p>
 
 <h2 id="example-project">Example Project</h2>
