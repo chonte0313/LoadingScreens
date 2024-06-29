@@ -15,7 +15,6 @@ A collection of customizable loading indicators for SwiftUI.
   - [ProgressLoading](#progressloading)
   - [RectangleLoading](#rectangleloading)
 - [License](#license)
-- [Contact](#contact)
 
 ## Installation
 
