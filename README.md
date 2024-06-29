@@ -37,6 +37,8 @@ Or add the package directly through Xcode:
 
 A circular loading indicator that continuously rotates.
 
+https://github.com/chonte0313/LoadingScreens/assets/67182331/a0fad6b4-28a9-4cd9-a613-19d29cf1a69d
+
 #### Initializers
 
 - init(speed: Speed): Creates a CircleLoading with the specified speed.
@@ -57,6 +59,11 @@ CircleLoading(speed: .medium)
 ### CircleTrimLoading
 
 A circular loading indicator with a trimming effect.
+
+
+
+https://github.com/chonte0313/LoadingScreens/assets/67182331/7026f6ec-5a5e-4a8d-934d-eafe5a2950e2
+
 
 #### Initializers
 
@@ -80,6 +87,9 @@ CircleTrimLoading()
 
 A customizable progress bar with different styles.
 
+<img width="232" alt="4" src="https://github.com/chonte0313/LoadingScreens/assets/67182331/e880e493-4c28-4f1b-b508-5dff5c29c9ec">
+
+
 #### Initializers
 
 - init(progress: Binding<CGFloat>): Creates a ProgressLoading with the specified progress binding.
@@ -100,6 +110,12 @@ ProgressLoading(progress: $progress)
 ### RectangleLoading
 
 A rectangular loading indicator with a trimming effect.
+
+
+
+https://github.com/chonte0313/LoadingScreens/assets/67182331/02cff297-d626-483d-9dfb-daf5a5fb0b1a
+
+
 
 #### Initializers
 
