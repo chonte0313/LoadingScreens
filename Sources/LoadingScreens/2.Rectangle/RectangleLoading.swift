@@ -9,7 +9,7 @@ import SwiftUI
 import Combine
 
 @available(iOS 14, macOS 11.0, *)
-struct RectangleLoading: View {
+public struct RectangleLoading: View {
     
     // State variables to track the start and end points of the trim
     @State var startTrim: CGFloat = 0

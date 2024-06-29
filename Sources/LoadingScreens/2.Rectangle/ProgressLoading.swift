@@ -8,7 +8,7 @@
 import SwiftUI
 
 @available(iOS 14, macOS 11.0, *)
-struct ProgressLoading: View {
+public struct ProgressLoading: View {
     
     // A binding to track the progress value
     @Binding var progress: CGFloat

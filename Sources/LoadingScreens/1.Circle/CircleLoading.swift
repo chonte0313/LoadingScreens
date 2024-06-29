@@ -10,7 +10,7 @@ import SwiftUI
 import Combine
 
 @available(iOS 14, macOS 11.0, *)
-struct CircleLoading : View {
+public struct CircleLoading : View {
     
     // The width of the circular stroke
     var lineWidth : CGFloat = 5

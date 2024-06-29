@@ -10,7 +10,7 @@ import SwiftUI
 import Combine
 
 @available(iOS 14, macOS 11.0, *)
-struct CircleTrimLoading : View {
+public struct CircleTrimLoading : View {
     
     // State variables to track the start and end points of the trim
     @State var startTrim: CGFloat = 0
