@@ -31,36 +31,36 @@ public struct RectangleLoading: View {
     var lineCap = CGLineCap.square
     
     // Default initializer with a medium speed timer
-    init() {
+    public init() {
         timer = Timer.publish(every: Speed.medium.rawValue, on: .main, in: .common).autoconnect()
     }
     
     // Initializer to set the speed of the animation
-    init(speed: Speed) {
+    public init(speed: Speed) {
         timer = Timer.publish(every: speed.rawValue, on: .main, in: .common).autoconnect()
     }
     
     // Initializer to set the speed of the animation and the line width
-    init(speed: Speed, lineWidth: CGFloat) {
+    public init(speed: Speed, lineWidth: CGFloat) {
         timer = Timer.publish(every: speed.rawValue, on: .main, in: .common).autoconnect()
         self.lineWidth = lineWidth
     }
     
     // Initializer to set the speed of the animation and the line cap style
-    init(speed: Speed, lineCap: CGLineCap) {
+    public init(speed: Speed, lineCap: CGLineCap) {
         timer = Timer.publish(every: speed.rawValue, on: .main, in: .common).autoconnect()
         self.lineCap = lineCap
     }
     
     // Initializer to set the speed of the animation, line width, and line cap style
-    init(speed: Speed, lineWidth: CGFloat, lineCap: CGLineCap) {
+    public init(speed: Speed, lineWidth: CGFloat, lineCap: CGLineCap) {
         timer = Timer.publish(every: speed.rawValue, on: .main, in: .common).autoconnect()
         self.lineWidth = lineWidth
         self.lineCap = lineCap
     }
     
     // The body of the View
-    var body: some View {
+    public var body: some View {
         // Draw a rounded rectangle that is trimmed and styled
         RoundedRectangle(cornerRadius: 10)
             .trim(from: startTrim, to: endTrim)

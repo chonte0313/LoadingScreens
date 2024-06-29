@@ -23,18 +23,18 @@ public struct ProgressLoading: View {
     var type: ProgressViewStyle = .Capsule
     
     // Initializer to set the progress value
-    init(progress: Binding<CGFloat>) {
+    public init(progress: Binding<CGFloat>) {
         _progress = progress
     }
     
     // Initializer to set the progress value and the style of the progress bar
-    init(progress: Binding<CGFloat>, type: ProgressViewStyle) {
+    public init(progress: Binding<CGFloat>, type: ProgressViewStyle) {
         _progress = progress
         self.type = type
     }
     
     // Initializer to set the progress value, style, bar color, and background color
-    init(progress: Binding<CGFloat>, type: ProgressViewStyle, barcolor: Color, backgroundColor: Color) {
+    public init(progress: Binding<CGFloat>, type: ProgressViewStyle, barcolor: Color, backgroundColor: Color) {
         _progress = progress
         self.type = type
         self.color = barcolor
@@ -42,14 +42,14 @@ public struct ProgressLoading: View {
     }
     
     // Initializer to set the progress value, bar color, and background color
-    init(progress: Binding<CGFloat>, barcolor: Color, backgroundColor: Color) {
+    public init(progress: Binding<CGFloat>, barcolor: Color, backgroundColor: Color) {
         _progress = progress
         self.color = barcolor
         self.backgroundColor = backgroundColor
     }
     
     // The body of the View
-    var body: some View {
+    public var body: some View {
         // Display a Capsule or Rectangle based on the type
         if type == .Capsule {
             Capsule()
