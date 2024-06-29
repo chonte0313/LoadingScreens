@@ -95,13 +95,3 @@ public struct RectangleLoading: View {
         }
     }
 }
-
-@available(iOS 14, macOS 11.0, *)
-struct LoadingView_Previews: PreviewProvider {
-    static var previews: some View {
-        CircleLoading(speed: .medium, lineWidth: 10, lineCap: .round).frame(width: 60,height: 40).padding().tag("Circle Loading")
-        CircleTrimLoading(speed: .fast, lineWidth: 10, lineCap: .round).padding()
-        ProgressLoading(progress: .constant(20)).frame(height: 20).padding()
-        RectangleLoading(speed: .medium).frame(width: 60,height: 40).padding()
-    }
-}
